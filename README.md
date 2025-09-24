@@ -24,10 +24,21 @@ The project is organized into the following Python files:
 - **`__pycache__`**: Python bytecode cache directory (auto-generated).  
 - **`.idea`**: IDE project configuration files (for PyCharm or other JetBrains IDEs).  
 
-## 🛠️ Installation
 
-1. Clone the repository:
+## 🛠️ Installation & Run
 
 ```bash
+# Step 1: Clone the repository
 git clone https://github.com/bhavneet08/Sudoko.git
 cd Sudoko
+
+# Step 2: Install dependencies
+pip install pygame requests
+
+# Step 3: Run the game
+python main.py
+
+
+
+
+
